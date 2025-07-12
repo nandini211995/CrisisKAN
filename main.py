@@ -8,8 +8,8 @@ from PIL import Image
 from torch.serialization import save
 from args import get_args
 from trainer import Trainer
-from crisismmd_dataset import CrisisMMDataset
-from models import DenseNetBertMMModel, ImageOnlyModel, TextOnlyModel
+from CrisisKAN.data_prep.crisismmd_dataset import CrisisMMDataset
+from CrisisKAN.configs.models import DenseNetBertMMModel, ImageOnlyModel, TextOnlyModel
 import os
 import numpy as np
 import torch
@@ -20,7 +20,7 @@ from torch import optim
 from tqdm import tqdm
 from torch.optim.lr_scheduler import OneCycleLR
 import math
-from optimization import AdamW, WarmupCosineSchedule , WarmupLinearSchedule
+from CrisisKAN.configs.optimization import AdamW, WarmupCosineSchedule , WarmupLinearSchedule
 import time
 
 import nltk

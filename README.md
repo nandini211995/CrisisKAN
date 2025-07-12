@@ -24,3 +24,19 @@ To cite the paper:
 ## Run the model
 * Setup the environemnt and download the dataset using script  `bash setup.sh`
 * Run the pipeline with `bash train_debug.sh`
+
+## Project Structure
+
+CrisisKAN/
+├── configs/ # Model architectures, Optimization method 
+├── data_prep/ # Data Preparation & Preprocessing
+├── datasets/ # Folder to save dataset
+├── gradcam_results/ # Folder to save XAI results
+├── wiki_extraction/ # Knowledge extraction (TagMe + Wikipedia)
+├── args.py # Arguments script
+├── main.py # Main file 
+├── trainer.py/ # Training script
+├── setup.sh/ # Setup file, run using bash
+├── train_debug.sh/ # Run complete pipeline for training using .sh file with detail logs
+├── train.sh/ # Run complete pipeline for training using .sh file
+├── requirements.yml    
