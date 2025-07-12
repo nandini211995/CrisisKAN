@@ -27,4 +27,17 @@ To cite the paper:
 
 ## Project Structure
 
-<pre lang="bash"><code> ```bash CrisisKAN/ ├── configs/ # Model architectures, Optimization method ├── data_prep/ # Data Preparation & Preprocessing ├── datasets/ # Folder to save dataset ├── gradcam_results/ # Folder to save XAI results ├── wiki_extraction/ # Knowledge extraction (TagMe + Wikipedia) ├── args.py # Arguments script ├── main.py # Main file ├── trainer.py # Training script ├── setup.sh # Setup file, run using bash ├── train_debug.sh # Run training pipeline with detailed logs ├── train.sh # Run training pipeline ├── requirements.yml ``` </code></pre>
+## Project Structure
+
+- `configs/` – Model architectures, optimization method  
+- `data_prep/` – Data preparation and preprocessing  
+- `datasets/` – Folder to save dataset  
+- `gradcam_results/` – Folder to save XAI results  
+- `wiki_extraction/` – Knowledge extraction (TagMe + Wikipedia)  
+- `args.py` – Arguments script  
+- `main.py` – Main file  
+- `trainer.py` – Training script  
+- `setup.sh` – Setup file, run using bash  
+- `train_debug.sh` – Run training pipeline with detailed logs  
+- `train.sh` – Run training pipeline  
+- `requirements.yml` – Conda environment dependencies  
